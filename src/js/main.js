@@ -62,5 +62,3 @@ const makeRecObject = (groups) => {
 
   return listForRender;
 };
-
-const list = makeRecObject(groups);

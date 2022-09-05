@@ -10,12 +10,12 @@
   cursor: pointer;
 
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 20px;
     left: 45px;
     width: 40px;
     height: 40px;
-    background-image: url('../../../dist/images/icons/dashboard.svg');
+    background-image: url("../../../dist/images/icons/dashboard.svg");
   }
 }

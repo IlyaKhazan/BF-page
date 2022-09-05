@@ -4,7 +4,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>БФ Нужна помощь</title>
-    <link rel="preload" href="./dist/fonts/futura_pt_book.woff2" as="font" type="font/woff2" crossorigin />
+    <link
+      rel="preload"
+      href="./dist/fonts/futura_pt_book.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <link rel="stylesheet" href="./dist/css/style.css" />
   </head>
   <body class="page__body">
@@ -20,36 +26,53 @@
         </svg>
       </a>
       <a href="#" class="header__coordinator" aria-label="Личный кабинет">
-        <img src="./src/images/avatar.png" width="40px" height="40px" alt="Аватар координатора" />
+        <img
+          src="./dist/images/avatar.png"
+          width="40px"
+          height="40px"
+          alt="Аватар координатора"
+        />
         <span>Екатерина</span>
       </a>
     </header>
     <main class="main">
-      <h1 class="visually-hidden">БФ Нужна помощь</h1>
       <nav class="navbar">
         <div class="navbar__wrapper">
           <a class="tab">Панель управления</a>
         </div>
       </nav>
       <section class="fundraising">
-        <h2 class="fundraising__title">Создание сбора</h2>
+        <h1 class="fundraising__title">Создание сбора</h1>
         <form class="fundraising__form form" method="post" action="">
           <div class="form__group">
-            <h3 class="form__title">Информация о сборе</h3>
+            <h2 class="form__title">Информация о сборе</h2>
             <div class="form__text-field text-field">
-              <label class="form__label text-field__label" for="name">Название сбора:</label>
-              <input class="form__input text-field__input" name="name" id="name" type="text" />
+              <label class="form__label text-field__label" for="name"
+                >Название сбора:</label
+              >
+              <input
+                class="form__input text-field__input"
+                name="name"
+                id="name"
+                type="text"
+              />
             </div>
           </div>
           <div class="form__group">
-            <h3 class="form__title">Целевые группы</h3>
-            <p class="form__label text-field__label">Укажите, кому помогает ваша организация</p>
+            <h2 class="form__title">Целевые группы</h2>
+            <p class="form__label text-field__label">
+              Укажите, кому помогает ваша организация
+            </p>
           </div>
           <div class="form__groups-list" id="groups"></div>
-          <button class="button button--add" id="add-button">Выбрать ещё</button>
+          <button class="button button--add" id="add-button">
+            Выбрать ещё
+          </button>
           <ul class="dropdown dropdown--hidden" id="dropdown"></ul>
           <div class="form__button-wrapper">
-            <button class="button button--submit" type="submit">Сохранить и продолжить</button>
+            <button class="button button--submit" type="submit">
+              Сохранить и продолжить
+            </button>
           </div>
         </form>
       </section>

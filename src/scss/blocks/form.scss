@@ -1,0 +1,44 @@
+.form {
+  position: relative;
+  padding: 50px 60px 60px;
+  border: 1px solid $gray-90;
+  border-radius: 10px;
+}
+
+.form__title {
+  font-size: 30px;
+  line-height: 35px;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.form__group {
+  margin-bottom: 50px;
+}
+
+.form__text-field {
+  margin-top: 40px;
+}
+
+.form__label {
+  margin: 0;
+}
+
+.form__button-wrapper {
+  border-top: 1px solid $gray-90;
+  padding-top: 60px;
+}
+
+.form__groups-list {
+  height: 140px;
+  width: 823px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+
+.form__button-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 32px;
+}

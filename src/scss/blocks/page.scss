@@ -1,0 +1,16 @@
+.page {
+  @include wrapper;
+  color: $graphite;
+  height: 100%;
+  font-family: 'Futura PT Book', 'Arial', 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.page__body {
+  min-height: 100%;
+  margin: 0;
+  display: grid;
+  grid-template-rows: min-content 1fr min-content;
+}

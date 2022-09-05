@@ -1,0 +1,38 @@
+.button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button--submit {
+  display: block;
+  background: $red;
+  color: $white;
+  width: 320px;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.button--add {
+  position: relative;
+  font-size: 20px;
+  padding-left: 10px;
+  width: 200px;
+  height: 40px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    background-image: url('../../../dist/images/icons/plus.svg');
+  }
+}

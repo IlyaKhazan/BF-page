@@ -1,0 +1,21 @@
+.text-field {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.text-field__label {
+  display: block;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.text-field__input {
+  border: 1px solid $gray-90;
+  width: 100%;
+  max-width: 960px;
+  background: $gray-98;
+  font-family: inherit;
+  height: 50px;
+  padding-left: 20px;
+}
